@@ -1,3 +1,7 @@
+To start the project - 
+1. npm i
+2. npm start
+
 APIS - 
 1. Save review - \
 http://localhost:3000/review
@@ -16,7 +20,8 @@ Payload: {
 
 
 2. List reviews - \
-http://localhost:3000/review\
+http://localhost:3000/review
+\
 type: get\
 
 Filter by ratings -\
@@ -32,11 +37,12 @@ localhost:3000/review?review_source=iTunes
 3. Monthly rating by store -
 \
 localhost:3000/review/monthlyRatingByStore
-\
+
+
 type get
-\
+
 
 4. total rating by category -\
 localhost:3000/review/totalRatingByCategory
-\
+
 
